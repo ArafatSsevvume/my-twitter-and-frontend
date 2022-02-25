@@ -1,0 +1,147 @@
+*body{
+    margin: 0px;
+    
+}
+.maindiv{
+    padding: 0px;
+}
+/*my first div*/
+.headdiv{
+    background: rgb(63, 5, 5);
+    display: flex;
+    height: auto;
+   
+}
+.logo{
+
+    box-sizing: border-box;
+    border: 0;
+    color: transparent;
+    font: 0/0 a;
+    text-shadow: none;
+    background-size: 100%;
+    background-image: url(https://static.frontendmasters.com/assets/fm/js/static/frontendmasters.e1e10b58c1.svg);
+    display: block;
+    height: 40px;
+    margin-top: 5px;
+    width: 250px;
+}
+.navdiv li{
+    display: inline;
+    font-size: 20px;
+    padding: 6px;
+    
+}
+.navdiv a{
+    text-decoration: none;
+    color: grey;
+    text-align: center;
+    padding-right: 5px;
+}
+.navdiv li a:hover{
+    color: white;
+}
+.redbutton{
+    
+    font-size: 16px;
+    
+    border: none;
+    border-radius: 40px;
+    background: #c02d28;
+    line-height: 40px;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+
+
+.navdiv{
+    padding-left: 40%;
+}
+/*my content div*/
+.content{
+    background: grey;
+    height: auto;
+
+}
+.loginbutton{
+    font-size: 16px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    border-radius: 40px;
+    display: block;
+    background: #c02d28;
+    line-height: 40px;
+    color: #fff;
+    width: auto;
+}
+form{
+    padding-left: 40%;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    font-size: 20px;
+}
+form a{
+    color: orangered;
+}
+form input{
+    width: 50%;
+    height: 4vh;
+    padding-top: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    border: none;
+}
+input[type="checkbox"]{
+    width: auto;
+}
+/*my footer div*/
+.footerdiv{
+    background: black;
+}
+.navdiv2 li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding: 2px;
+    font-size: 20px;
+}
+.navdiv2 li{
+    display: inline;
+    padding: 2px;
+}
+.navdiv2{
+    
+}
+.myfooter{
+    display: flex;
+}
+.imicons{
+    display: flex;
+    padding: 5px;
+}
+.elem img{
+    border: white 1px solid;
+    width: 180px;
+    padding: 3px;
+}
+.icons i{
+    padding: 3px;
+    font-size: 35px;
+    color: rgb(127, 220, 20);
+}
+#text{
+    color: white;
+    font-size: 20px;
+}
+.text{
+    color: white;
+    font-size: 20px;
+    padding-left: 60%;
+}
+.text a{
+    text-decoration: none;
+    color: red;
+}
